@@ -3,58 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Portfolio</title>
-    <style>
-        /* Basic Reset */
-        body, h1, h2, p, a { margin: 0; padding: 0; font-family: Arial, sans-serif; }
-        /* Navigation Styles */
-        nav { background: #333; color: #fff; padding: 10px; text-align: center; }
-        nav a { color: #fff; margin: 0 15px; text-decoration: none; }
-        /* Section Styles */
-        section { padding: 20px; }
-        .features, .testimonials { background: #f4f4f4; }
-        /* Misc */
-        .container { max-width: 1200px; margin: auto; }
-        .screenshot { width: 100%; max-width: 400px; display: block; margin: 20px auto; }
-        .contact-form { max-width: 400px; margin: auto; text-align: center; }
-        .contact-form input, .contact-form textarea { width: 100%; margin: 10px 0; padding: 10px; }
-        .contact-form button { padding: 10px 20px; cursor: pointer; }
-    </style>
+    <title>Calorie Calculator</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-<nav>
-    <a href="#about">About</a>
-    <a href="#features">Features</a>
-    <a href="#screenshots">Screenshots</a>
-    <a href="#testimonials">Testimonials</a>
-    <a href="#contact">Contact</a>
-</nav>
-<section id="about" class="container">
-    <h1>Welcome to My App</h1>
-    <p>This app is revolutionizing the way we do things.</p>
-</section>
-<section id="features" class="features container">
-    <h2>Features</h2>
-    <p>Discover the incredible features of our app.</p>
-</section>
-<section id="screenshots" class="container">
-    <h2>Screenshots</h2>
-    <img src="screenshot1.jpg" alt="App Screenshot" class="screenshot">
-    <!-- Add more screenshots here -->
-</section>
-<section id="testimonials" class="testimonials container">
-    <h2>Testimonials</h2>
-    <p>"This app changed my life!" - Jane Doe</p>
-    <!-- Add more testimonials here -->
-</section>
-<section id="contact" class="container">
-    <h2>Contact Us</h2>
-    <form class="contact-form">
-        <input type="text" placeholder="Your Name">
-        <input type="email" placeholder="Your Email">
-        <textarea placeholder="Your Message"></textarea>
-        <button type="submit">Send</button>
-    </form>
-</section>
+<h2>Product Calorie Calculator</h2>
+<form id="productForm">
+    <input type="text" id="productName" placeholder="Product Name" required>
+    <input type="number" id="productAmount" placeholder="Amount (in g)" step="1" required>
+    <input type="number" id="caloriesPerKg" placeholder="Calories per 100g" required>
+    <button type="submit">Add Product</button>
+</form>
+<div id="productList"></div>
+
+<!--<div id="totalCalories">Total Calories: 0</div>-->
+<button id="shareSummary">Share Summary via WhatsApp</button>
+<button id="clearAll">Clear All Products</button>
+
+<script src="script.js"></script> <!-- Link to your JS file -->
 </body>
 </html>
