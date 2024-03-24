@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import ProductForm from "./ProductForm"
 import ProductList from "./ProductList"
 import TotalCalories from "./TotalCalories"
+import logo from "./assets/logo.jpeg"
 import './App.css';
 
 function App() {
@@ -51,7 +52,11 @@ function App() {
 
   return (
     <div className="App">
-      <h1>NutriCalc: Daily Calorie Tracker</h1>
+      <div className="app-title">
+        <img src={logo} alt="NutriCalc Logo" className="app-logo" />
+        <h1>NutriCalc: Daily Calorie Tracker</h1>
+      </div>
+
       <ProductForm onAdd={addOrUpdateProduct} />
       <ProductList products={products} onEdit={addOrUpdateProduct} onDelete={deleteProduct} />
       {products.length > 0 && <TotalCalories products={products} />}
