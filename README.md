@@ -1,3 +1,5 @@
+<img src="/images/logo.webp" alt="Logo" height="512">
+
 # NutriCalc: Daily Calorie Tracker
 
 ## Overview
