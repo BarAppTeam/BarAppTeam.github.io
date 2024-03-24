@@ -1,26 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calorie Calculator</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-</head>
-<body>
-<h2>Product Calorie Calculator</h2>
-<form id="productForm">
-    <input type="text" id="productName" placeholder="Product Name" required>
-    <input type="number" id="productAmount" placeholder="Amount (in g)" step="1" required>
-    <input type="number" id="caloriesPerKg" placeholder="Calories per 100g" required>
-    <button type="submit">Add Product</button>
-</form>
-<div id="productList"></div>
-
-<!--<div id="totalCalories">Total Calories: 0</div>-->
-<button id="shareSummary">Share Summary via WhatsApp</button>
-<button id="clearAll">Clear All Products</button>
-
-<script src="script.js"></script> <!-- Link to your JS file -->
-</body>
+    <title>NutriCalc: Daily Calorie Tracker</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
