@@ -18,11 +18,11 @@ No installation is required. You can view the website directly in your web brows
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/calorie-calculator-website.git
+   git clone https://github.com/BarAppTeam/NutriCalc-Daily-Calorie-Tracker.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd calorie-calculator-website
+   cd NutriCalc-Daily-Calorie-Tracker
    ```
 3. Open the `index.html` file in your web browser.
 
