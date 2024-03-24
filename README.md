@@ -1,4 +1,4 @@
-# Calorie Calculator Website
+# NutriCalc: Daily Calorie Tracker
 
 ## Overview
 This Calorie Calculator Website is designed to help users track and calculate the calorie content of various products. Users can add products to a list, specifying the product's name, weight in grams, and calories per 100 grams. The website automatically calculates the total calories for each product and displays the cumulative calories for all products listed. Features include the ability to add, edit, and delete products, as well as clear the entire product list. Data is persisted in the browser's localStorage, making it a convenient tool for daily use.
