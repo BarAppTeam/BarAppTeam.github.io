@@ -7,7 +7,6 @@ This Calorie Calculator Website is designed to help users track and calculate th
 
 ## Features
 - **Add Products:** Users can add products by entering the product name, weight (in grams), and calories per 100 grams.
-- **Edit Products:** Each product entry can be edited after addition, allowing users to update any detail.
 - **Delete Products:** Users can delete individual products or clear the entire list.
 - **Calorie Calculation:** Automatic calculation of total calories for each product and a cumulative total for all products listed.
 - **LocalStorage Integration:** Products are saved in the browser's localStorage, ensuring data persistence between sessions.
@@ -32,10 +31,9 @@ No installation is required. You can view the website directly in your web brows
 To use the Calorie Calculator Website, follow these steps:
 
 1. **Add a Product:** Fill in the product's name, weight in grams, and calories per 100 grams in the form fields. Submit the form to add the product to the list.
-2. **Edit a Product:** Click the "Edit" button next to a product to load its details back into the form for editing. Submit the form to update the product's details.
-3. **Delete a Product:** Click the "Delete" button next to a product to remove it from the list.
-4. **View Total Calories:** The total calories of all products listed will be displayed at the bottom of the product list.
-5. **Clear Product List:** Click the "Clear All Products" button to remove all products from the list and reset the total calories.
+2. **Delete a Product:** Click the "Delete" button next to a product to remove it from the list.
+3. **View Total Calories:** The total calories of all products listed will be displayed at the bottom of the product list.
+4. **Clear Product List:** Click the "Clear All Products" button to remove all products from the list and reset the total calories.
 
 ## Contributing
 
