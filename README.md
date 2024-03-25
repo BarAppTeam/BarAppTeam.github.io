@@ -1,4 +1,4 @@
-<img src="/images/logo.webp" alt="Logo" height="512">
+<img src="/images/logo.webp" alt="Logo" height="256">
 
 # NutriCalc: Daily Calorie Tracker
 
@@ -12,19 +12,39 @@ This Calorie Calculator Website is designed to help users track and calculate th
 - **LocalStorage Integration:** Products are saved in the browser's localStorage, ensuring data persistence between sessions.
 - **Responsive Design:** The website is fully responsive and can be used on devices of various sizes.
 
+Given your project now uses Vite and pnpm, the installation instructions in your `README.md` need to reflect these changes. Here’s how you can update the "Installation" section to guide users and developers through setting up the project with these tools:
+
 ## Installation
 
-No installation is required. You can view the website directly in your web browser. For developers looking to set up a local development environment, follow these steps:
+For most users, simply visiting the deployed website is sufficient. However, developers or users who wish to run NutriCalc locally can set up a development environment using the following steps:
 
-1. Clone the repository:
+1. **Clone the repository:**
+   Open a terminal and run the following command to clone the NutriCalc repository:
    ```bash
    git clone https://github.com/BarAppTeam/NutriCalc-Daily-Calorie-Tracker.git
    ```
-2. Navigate to the project directory:
+
+2. **Navigate to the project directory:**
+   Change into the project directory with:
    ```bash
    cd NutriCalc-Daily-Calorie-Tracker
    ```
-3. Open the `index.html` file in your web browser.
+
+3. **Install dependencies:**
+   Ensure you have `pnpm` installed on your system. If you don't, you can install it by following the instructions on [pnpm's official site](https://pnpm.io/installation). Once `pnpm` is installed, run the following command to install the project dependencies:
+   ```bash
+   pnpm install
+   ```
+
+4. **Start the development server:**
+   Run the following command to start a local development server using Vite. This command compiles the application and opens it in your default web browser, with hot reload enabled for development:
+   ```bash
+   pnpm run dev
+   ```
+
+   The application will be available at `http://localhost:3000` or another port if 3000 is already in use. The terminal will display the exact URL to access the application.
+
+By following these steps, developers can quickly set up NutriCalc in a local development environment, leveraging Vite for efficient development and `pnpm` for dependency management.
 
 ## Usage
 
